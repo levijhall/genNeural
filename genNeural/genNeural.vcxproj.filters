@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{bcdfb332-514d-480e-80dc-34d2f06a5c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{ab58a101-75c5-4217-a315-f5b820cb6ecf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="loadTrainingSet.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="loadWgtGraph.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="netFunction.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="netGen.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="node.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="loadTrainingSet.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="loadWgtGraph.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="netFunction.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="netGen.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile">
+      <Filter>source</Filter>
+    </None>
+    <None Include="test\xor1.err">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor1.in">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor1.out">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor1.set">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor2.err">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor2.in">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor2.out">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor2.set">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor3.err">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor3.in">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor3.out">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor3.set">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor3-1.err">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor3-1.out">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor4.err">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor4.in">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor4.out">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\xor4.set">
+      <Filter>test</Filter>
+    </None>
+  </ItemGroup>
+</Project>

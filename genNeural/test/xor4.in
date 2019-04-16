@@ -1,0 +1,16 @@
+6
+f 1 ID
+f 2 ID
+f 3 ID
+f 4 TANH
+f 5 TANH
+f 6 TANH
+1 4
+1 5
+2 4
+2 5
+3 4
+3 5
+1 6
+4 6
+5 6
